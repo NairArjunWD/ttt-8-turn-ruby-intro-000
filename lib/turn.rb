@@ -18,5 +18,4 @@ def move(board, index, x_or_o)
   else
     exit
   end
-  
 end
