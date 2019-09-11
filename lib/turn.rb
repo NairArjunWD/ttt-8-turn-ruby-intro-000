@@ -17,13 +17,8 @@ def input_to_index(input)
 end
 
 def move(board, index, x_or_o)
-  if index = 0
-    return x_or_o = "X"
-  elsif index = 8
-    return x_or_o = "O"
-  else
-    exit
-  end
+  board[index] = x_or_o
+  return board
 end
 
 def turn(board)
