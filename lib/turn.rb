@@ -11,5 +11,7 @@ def valid_move?(board, index)
 end
 
 def move(board, index, "X")
+  if index = 0
+    return "X"
   
 end
