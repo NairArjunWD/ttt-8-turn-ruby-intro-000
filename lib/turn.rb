@@ -10,7 +10,7 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, index, "X")
+def move(board, index, x_or_o)
   if index = 0
     return "X"
   
