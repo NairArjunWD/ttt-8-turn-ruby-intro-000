@@ -44,6 +44,6 @@ def turn(board)
   else
     turn(board)
     puts"Try Again. Please enter a number between 1-9"
-  
+  end
 end
 
