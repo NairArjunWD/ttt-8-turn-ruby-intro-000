@@ -40,6 +40,9 @@ def turn(board)
   
   if valid_move?(board, index) == true
     move(board, index, x_or_o)
+    display_board(board)
+  else
+    a
   
 end
 
