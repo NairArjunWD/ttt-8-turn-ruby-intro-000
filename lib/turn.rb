@@ -43,7 +43,7 @@ def turn(board)
     display_board(board)
   else
     turn(board)
-    puts"Try Again. Please enter a number between 1-9:"
+    puts "Try Again. Please enter a number between 1-9:"
   end
 end
 
