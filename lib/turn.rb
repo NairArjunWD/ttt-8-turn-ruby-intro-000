@@ -12,6 +12,11 @@ end
 
 def move(board, index, x_or_o)
   if index = 0
-    return "X"
+    return x_or_o = "X"
+  elsif index = 8
+    return x_or_o = "O"
+  else
+    exit
+  end
   
 end
