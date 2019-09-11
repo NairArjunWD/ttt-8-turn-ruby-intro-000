@@ -28,8 +28,8 @@ def input_to_index(input)
   return output
 end
 
-def move(board, index, x_or_o)
-  board[index] = x_or_o
+def move(board, index, output)
+  board[index] = output
   return board
 end
 
@@ -39,7 +39,7 @@ def turn(board)
   puts "Please enter 1-9:"
   
   if valid_move?(board, index) == true
-    move(board, index, x_or_o)
+    move(board, index, output)
     display_board(board)
   else
     turn(board)
