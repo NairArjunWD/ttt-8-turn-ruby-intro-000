@@ -10,6 +10,12 @@ def valid_move?(board, index)
   end
 end
 
+def input_to_index(input)
+  output = input.to_i
+  output -= 1
+  return output
+end
+
 def move(board, index, x_or_o)
   if index = 0
     return x_or_o = "X"
