@@ -1,5 +1,5 @@
 def display_board(board)
-  puts "#{board} was chosen"
+  puts "#{board}"
 end
 
 def valid_move?(board, index)
