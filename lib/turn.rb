@@ -28,8 +28,8 @@ def input_to_index(input)
   return output
 end
 
-def move(board, index, "X")
-  board[index] = "X"
+def move(board, index, output = "X")
+  board[index] = output
   return board
 end
 
@@ -39,7 +39,7 @@ def turn(board)
   index = input_to_index(input)
   
   if valid_move?(board, index) == true
-    move(board, index, "X")
+    move(board, index, output)
     display_board(board)
   else
     turn(board)
