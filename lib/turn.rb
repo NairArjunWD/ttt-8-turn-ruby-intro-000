@@ -34,7 +34,7 @@ def move(board, index, x_or_o)
 end
 
 def turn(board)
-  puts "Please enter 1-9:"
   input_to_index(input)
+  puts "Please enter 1-9:"
 end
 
